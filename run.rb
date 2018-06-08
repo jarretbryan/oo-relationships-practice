@@ -8,10 +8,11 @@ dr_oz = Doctors.new("Dr. Oz")
 jarret = Patients.new("Jarret")
 brad = Patients.new("Brad")
 
-appt_1 = Appointments.new("Dr. Phil", "Brad")
-appt_2 = Appointments.new("Dr. Oz", "Jarret")
-appt_3 = Appointments.new("Dr. Phil", "Jarret")
-appt_4 = Appointments.new("Dr. Oz", "Brad")
+appt_1 = Appointments.new(dr_phil, brad)
+appt_2 = Appointments.new(dr_oz, jarret)
+appt_5 = Appointments.new(dr_oz, jarret)
+appt_3 = Appointments.new(dr_phil, jarret)
+appt_4 = Appointments.new(dr_oz, brad)
 
 
 dr_phil.appointments
